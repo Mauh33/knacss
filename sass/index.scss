@@ -1,1 +1,26 @@
 @import "knacss.scss";
+
+$brown-color: #e7c137;
+$red-color: #b32419;
+$grey-color: #aba693;
+$blue-color: #2a668e;
+$black-color: #151419;
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 90vw;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.art-bloc {
+  background-color: $black-color;
+  width: 27.8rem;
+  height: 32.6rem;
+}

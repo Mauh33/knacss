@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "knacss": "^8.0.4",
     "sass": "^1.74.1"
   },
   "devDependencies": {

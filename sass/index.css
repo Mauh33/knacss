@@ -5302,4 +5302,22 @@ template {
   .lg\:row-span-6 {
     grid-row: span 6/span 6;
   }
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 90vw;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.art-bloc {
+  background-color: #151419;
+  width: 27.8rem;
+  height: 32.6rem;
 }/*# sourceMappingURL=index.css.map */
