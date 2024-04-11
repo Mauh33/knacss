@@ -1,9 +1,7 @@
 /* Spacers utility classes */
 
 // loop for each spacer
-@each $key,
-$value in $spacers {
-
+@each $key, $value in $spacers {
   .p-#{$key} {
     padding: $value;
   }
@@ -65,9 +63,7 @@ $value in $spacers {
   }
 
   // loop for each breakpoint
-  @each $bp,
-  $bpv in $breakpoints {
-
+  @each $bp, $bpv in $breakpoints {
     @media (min-width: #{$bpv}) {
       .#{$bp}\:p-#{$key} {
         padding: $value;
@@ -130,5 +126,4 @@ $value in $spacers {
       }
     }
   }
-
 }

@@ -42,6 +42,8 @@ $spacers: (
   "24": 1.5rem,
   // wide
   "36": 2.25rem,
+  "5px": 5px,
+  "2px": 2px,
   // ultra
   "auto": auto,
 );
@@ -56,6 +58,8 @@ $spacer-medium: map-get($spacers, "16");
 $spacer-large: map-get($spacers, "20");
 $spacer-wide: map-get($spacers, "24");
 $spacer-ultra: map-get($spacers, "36");
+$spacer-x: map-get($spacers, "5px");
+$spacer-y: map-get($spacers, "2px");
 
 // ----------------
 // Grid layout

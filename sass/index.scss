@@ -1,3 +1,4 @@
+@import "./knacss.scss";
 @import "../node_modules/knacss/sass/knacss.scss";
 
 $yellow-color: #e7c137;
@@ -20,53 +21,39 @@ main {
 }
 
 .art-bloc {
-  // background-color: $black-color;
-  background-color: $black;
+  background-color: $black-color;
   max-width: 27.8rem;
   width: 100%;
   height: 100%;
   max-height: 32.6rem;
+  column-gap: $spacer-y;
+  row-gap: $spacer-x;
 }
 
 .art-bloc > * {
-  margin: 0.3rem;
   display: inline-flex;
 }
 
-.A1,
-.B3,
-.E1,
-.F1,
-.G1 {
+.grey {
   background-color: $grey-color;
 }
 
-.B1,
-.C1,
-.I2 {
+.yellow {
   background-color: $yellow-color;
 }
 
-.B2,
-.F2,
-.F3 {
+.red {
   background-color: $red-color;
 }
 
-.D2,
-.H1 {
+.blue {
   background-color: $blue-color;
 }
 
-.D3,
-.E2 {
+.black {
   background-color: $black-color;
 }
 
-.D1,
-.H2,
-.H3,
-.I1,
-.I3 {
+.gray {
   background-color: $gray-500;
 }
