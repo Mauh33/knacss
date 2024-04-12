@@ -26,8 +26,6 @@ main {
   width: 100%;
   height: 100%;
   max-height: 32.6rem;
-  // grid-template-columns: 5% 36% 21% 11% 14% 10%;
-  // grid-template-rows: 9% 14% 16% 15% 6% 15%;
   grid-template-columns:
     calc(5% + 2px) calc(34% + 2px) calc(21% + 2px) calc(11% + 2px)
     calc(14% + 2px) calc(10% + 2px);
